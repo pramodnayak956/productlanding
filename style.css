@@ -1,0 +1,117 @@
+*{
+padding: 0;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgb(236, 227, 227);
+    width: 100%;
+    height: 100vh;
+    background-image: url(xuv.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(3, 2, 2, 0.901);
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container h1{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.container .links{
+    margin-top: 40px;
+}
+.container .links a{
+    color:rgb(235, 225, 225);
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.container .social-Links{
+    margin-top: 550px;
+    display:flex;
+    font-size: 1rem;
+}
+
+.container .social-Links div{
+    cursor: pointer;
+    margin: 0px 15px;
+    color: rgb(245, 24, 24);
+    width: 100px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s linear;
+}
+
+.container .social-Links .instagram:hover{
+    background-image: url(instagram.png);
+    background-position: center;
+}
+
+.container .social-Links .facebook:hover{
+    background-image: url(facebook.png);
+    background-color: #e05d06;
+}
+
+.container .social-Links .twitter:hover{
+    background-image: url(x\ \(2\).png);
+    background:rgb(236, 9, 9);
+}
+ 
+section{
+    width: 50%;
+    height: auto;
+}
+  
+section .content{
+    margin: 15% 10% 0 15%;
+}
+
+section .content h2{
+    font-size: 3rem;
+    color: black ;
+};
+
+section .content h2 span{
+    color: #0048e0;
+}
+
+section .content button{
+    background-color: #1645a9;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin: 10px;
+    margin-left: 5px;
+    transition: 0.2s linear;
+
+}
+
+section .content button:hover{
+    background: orange;
+    border: none;
+    color: #1645a9;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px black;
+    border-right: 3px solid #1645a9;
+    border-bottom: 3px solid #1645a9;
+}
